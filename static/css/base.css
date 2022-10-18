@@ -45,6 +45,13 @@ body {
     border: 1px solid black;
 }
 
+.btn-outline-black:hover,
+.btn-outline-black:active,
+.btn-outline-black:focus {
+    background: black;
+    color: white !important;
+}
+
 .shop-now-button:hover,
 .shop-now-button:active,
 .shop-now-button:focus,
@@ -96,11 +103,13 @@ a.category-badge>span.badge:hover {
     cursor: pointer;
 }
 
+/* ------------------------------- bootstrap toasts */
+
 .message-container {
     position: fixed;
     top: 72px;
     right: 15px;
-    z-index: 999999999;
+    z-index: 99999999999;
 }
 
 .custom-toast {
